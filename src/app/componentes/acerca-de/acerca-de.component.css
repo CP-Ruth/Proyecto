@@ -1,0 +1,36 @@
+.row{
+    padding: 40px;
+}
+div{
+    background-color: #4646b4;
+    text-align: center ;
+}
+/*estiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 10%;
+}
+#N{
+    color: aliceblue;
+}
+/*estilo de mi foto de perfil*/
+@media(min-width: 576px){
+   #FotoPerfil{
+    position: absolute;
+    width: 12%;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px  aliceblue;
+    left: 3.5%;
+    top: 645px; 
+   }
+}
+@media(max-width: 576px){
+    #FotoPerfil{
+     position:absolute;
+     width: 30%;
+     border-radius: 50%;
+     box-shadow: 3px 3px 3px aliceblue;
+     left: 35%;
+     top: 600px; 
+    }
+ }
